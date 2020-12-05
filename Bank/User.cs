@@ -27,7 +27,7 @@ namespace Bank
             } 
         }
         public UserType userType { get; set; }
-      
+
     }
     }
 

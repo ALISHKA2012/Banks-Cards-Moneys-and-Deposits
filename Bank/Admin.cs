@@ -24,12 +24,13 @@ namespace Bank
 
         private void linkUsers(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            dgvAdmin.DataSource = Session.Data.Users.GetAll().ToList();
 
         }
 
         private void linkCards(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           
+            dgvAdmin.DataSource = Session.Data.Cards.GetAll().ToList();
         }
 
         private void linkOut(object sender, LinkLabelLinkClickedEventArgs e)
@@ -51,7 +52,7 @@ namespace Bank
 
         private void dgv_Admin(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
         private void groupAdmin2(object sender, EventArgs e)

@@ -1,0 +1,34 @@
+﻿namespace Bank
+{
+    public enum BankName
+    {
+KapitalBank,
+BeynaxalgBank,
+AccessBank,
+AFBBank,
+ASB,
+AzərTürkBank,
+BankBTB,
+BankEurasia,
+BankMelliIran,
+BankofBaku,
+BankRespublika,
+PremiumBankBankSilkWay,
+CaucasusDevelopmentBank,
+Expressbank,
+GünayBank,
+InternationalBankofAzerbaijan,
+MuganBank,
+Nakhchivanbank,
+NationalBankofPakistan,
+NBCBank,
+YeloBankNikoilBank,
+PAŞABank,
+Rabitabank,
+TuranBank,
+Unibank,
+VTBBankAzerbaijan,
+XalqBank,
+YapiKrediBankAzerbaijan,
+    }
+}
